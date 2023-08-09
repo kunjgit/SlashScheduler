@@ -5,25 +5,14 @@ const gid = process.env['GUILD_ID']
 const token = process.env['token']
 const commands = [
   {
-    name: 'mumma',
-    description: 'This command describes my mumma!',
+    name: 'C1',
+    description: 'This command specifies the description that will be showed in discord',
   },
   {
-    name: 'meethu',
-    description: 'Gives positive vibes to mumma!',
-  },
-  {
-    name: 'reminder',
-    description: 'This will give the remider to mumma ',
-  },
-  {
-    name: 'fav',
-    description: 'Will give the favourite song for my mumma',
-  },
-  {
-    name: 'nothing',
-    description: 'this will give the developer site url',
+    name: 'C2',
+    description: 'This command specifies the description that will be showed in discord',
   }
+ 
 ];
 
 const rest = new REST({ version: '10' }).setToken(token);
